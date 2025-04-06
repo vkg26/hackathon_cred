@@ -1,0 +1,62 @@
+[
+  {
+    "type": "user_profile",
+    "text": "I'm a Platinum tier user from Mumbai and joined CRED on March 15, 2021. My email is vinayak@example.com, phone number is +91-9876543210, and I live at B-104, Lakeside Residency, Powai. I'm KYC verified, my PAN is linked, and my date of birth is July 22, 1990.",
+    "keywords": ["user", "profile", "email", "phone", "tier", "location", "dob"]
+  },
+  {
+    "type": "credit_score",
+    "text": "My credit score over the last six months has ranged from 782 to 794. It was 782 in November 2024 and peaked at 794 in April 2025. This reflects stable credit usage and consistent payments. My current credit utilization is 32.5%.",
+    "keywords": ["credit score", "monthly scores", "utilization", "remarks"]
+  },
+  {
+    "type": "card_summary",
+    "text": "I have an HDFC Regalia Signature card ending in 1234, which I got in January 2022. It has a credit limit of ₹1,00,000 with ₹82,000 available. The billing cycle runs from the 1st to the 30th. My due date is April 15, 2025 with ₹7,350 due (₹500 minimum). EMI is active and I’ve accumulated 1200 reward points.",
+    "keywords": ["hdfc", "regalia", "billing cycle", "credit limit", "due", "rewards"]
+  },
+  {
+    "type": "card_summary",
+    "text": "I also use an ICICI Amazon Pay Gold card ending in 5678, issued in May 2022. It has a ₹75,000 limit and ₹54,000 is currently available. The billing cycle is from the 5th to the 4th, and the next due is ₹15,400 on April 20, 2025 (₹1,500 minimum). EMI is not active on this card. I’ve earned 300 reward points so far.",
+    "keywords": ["icici", "amazon", "credit card", "limit", "rewards", "due"]
+  },
+  {
+    "type": "rewards_summary",
+    "text": "I currently have 7,800 total CRED points, of which 3,200 are available. I earn these through bill payments, referrals, and daily login streaks. I redeemed 2,000 points for an Amazon Gift Card on Jan 15, 2025 and 2,600 points for Zomato Pro Membership on Mar 10, 2025.",
+    "keywords": ["rewards", "points", "redeemed", "amazon", "zomato"]
+  },
+  {
+    "type": "app_usage",
+    "text": "I last logged into the CRED app on April 4, 2025. Over the past six months, I've been active 6 to 10 days each month. I frequently use the Pay Now, Rewards, and Card Summary sections.",
+    "keywords": ["app", "usage", "active days", "last login"]
+  },
+  {
+    "type": "reminders",
+    "text": "I've set bill payment reminders for HDFC 1234 due on April 15 (set on April 10) and ICICI 5678 due on April 20 (set on April 13).",
+    "keywords": ["reminders", "due dates", "cards"]
+  },
+  {
+    "type": "payments_summary",
+    "text": "Over the past six months, I've made the following payments: ₹5,500 (HDFC) on Nov 20 via UPI, ₹6,000 (ICICI) on Dec 18 via Autopay, ₹4,200 (HDFC) on Jan 19, ₹7,300 (ICICI) on Feb 20, ₹3,950 (HDFC) on Mar 17, and ₹8,200 (ICICI) on Apr 3.",
+    "keywords": ["payments", "history", "upi", "autopay"]
+  },
+  {
+    "type": "inbox_digest",
+    "text": "My recent emails include: HDFC Regalia Statement (Mar 5), Payment Confirmation for HDFC 1234 (Mar 17), Cashback Offer (Apr 2), and OTP for login (Apr 4).",
+    "keywords": ["email", "statement", "payment", "offer", "otp"]
+  },
+  {
+    "type": "purchase_history",
+    "text": "I purchased a pair of WROGN slim-fit jeans (size 34) from Myntra on January 12, 2025 for ₹1,899. I also got WROGN joggers (size 34) on March 8, 2025, and I've worn them multiple times for casual outings.",
+    "keywords": ["purchase", "jeans", "joggers", "wrogn", "size 34", "myntra"]
+  },
+  {
+    "type": "purchase_history",
+    "text": "In February 2025, I ordered U.S. Polo chinos (size 34) from Flipkart for ₹2,299. They were delivered on February 18. I rated them 4.5 stars and added them to my favorites.",
+    "keywords": ["purchase", "chinos", "u.s. polo", "flipkart", "size 34"]
+  },
+  {
+    "type": "brand_preference",
+    "text": "Since January 2025, I've consistently been buying size 34 bottomwear. WROGN has become my go-to brand for comfort and fit — I’ve reordered it multiple times because I really like the feel.",
+    "keywords": ["brand", "wrogn", "size", "fit", "comfort", "repeat purchase"]
+  }
+]

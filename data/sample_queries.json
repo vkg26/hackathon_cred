@@ -1,0 +1,209 @@
+[
+  {
+    "query": "Pay ₹500 to Axis Bank credit card in cred",
+    "keywords": ["pay", "credit card", "Axis Bank", "₹500", "CRED"],
+    "application": ["CRED"],
+    "steps": [
+      {
+        "action": "Tap on the 'Credit Cards' tab at the bottom to manage cards",
+        "image": "data\\train_data\\cred_pay_bill\\step_1.png",
+        "description": "Launch the CRED app and view the home screen with options like pay contacts, bills, refer, and more."
+      },
+      {
+        "action": "Scroll to the Axis Bank credit card",
+        "image": "data\\train_data\\cred_pay_bill\\step_2.png",
+        "description": "Navigate to the credit card management screen where you can view total due, spends, and offers."
+      },
+      {
+        "action": "Tap on the Axis Bank credit card to expand its details",
+        "image": "data\\train_data\\cred_pay_bill\\step_3.png",
+        "description": "From the list of cards, select the Axis Bank card which is marked as 'Fully Paid' and offers a 'Pay more' option."
+      },
+      {
+        "action": "Enter ₹500 in the amount input field",
+        "image": "data\\train_data\\cred_pay_bill\\step_4.png",
+        "description": "Input the desired payment amount using the keypad provided and tap on 'Proceed to pay'."
+      },
+      {
+        "action": "Tap on 'Pay now' to complete the transaction using the selected UPI account",
+        "image": "data\\train_data\\cred_pay_bill\\step_5.png",
+        "description": "The final screen confirms the payment details including amount, discount, and chosen UPI account."
+      }
+    ]
+  },
+  {
+    "query": "Add Dell laptop to cart in flipkart",
+    "keywords": ["add to cart", "laptop", "Dell", "flipkart"],
+    "application": ["Flipkart"],
+    "steps": [
+      {
+        "action": "Tap on the 'Electronics' category from the Flipkart home screen",
+        "image": "data\\train_data\\flipkart_add_to_cart\\step_1.png",
+        "description": "Flipkart home screen with various category icons including Grocery, Fashion, Electronics, and Mobiles."
+      },
+      {
+        "action": "Scroll and tap on the 'Laptops' banner to enter laptop deals",
+        "image": "data\\train_data\\flipkart_add_to_cart\\step_2.png",
+        "description": "Promotional laptop section with categories like ASUS, HP, Acer and active banners for ongoing offers."
+      },
+      {
+        "action": "Scroll down and tap on the Dell Vostro i5 tile",
+        "image": "data\\train_data\\flipkart_add_to_cart\\step_3.png",
+        "description": "A featured listing for Dell Vostro i5 with specs (Intel 12th Gen, up to 16 GB) and price."
+      },
+      {
+        "action": "Tap on the Dell Vostro 3520 item in the search results",
+        "image": "data\\train_data\\flipkart_add_to_cart\\step_4.png",
+        "description": "Search result listing Dell Vostro 3520 model with offers, price cut, and delivery details."
+      },
+      {
+        "action": "Tap 'GO TO CART' to confirm item was added",
+        "image": "data\\train_data\\flipkart_add_to_cart\\step_5.png",
+        "description": "Product page of Dell Vostro 3520 with an 'Item added to cart' confirmation and options to buy or go to cart."
+      }
+    ]
+  },
+  {
+    "query": "Check the chart for NIFTY 50 index on kite zerodha",
+    "keywords": ["NIFTY 50", "chart", "index", "view chart", "stock market", "kite zerodha"],
+    "application": ["Zerodha Kite"],
+    "steps": [
+      {
+        "action": "Go to the 'Watchlist' tab at the bottom",
+        "image": "data/train_data/kite_chart/step_1.png",
+        "description": "This screen shows your watchlist with various indices like NIFTY 50, SENSEX, and more."
+      },
+      {
+        "action": "Tap on 'NIFTY 50' from the list to open more options",
+        "image": "data/train_data/kite_chart/step_2.png",
+        "description": "You can browse through major indices. Selecting NIFTY 50 opens a detailed action menu."
+      },
+      {
+        "action": "Tap on 'View chart' from the popup menu",
+        "image": "data/train_data/kite_chart/step_3.png",
+        "description": "A bottom sheet opens with options like View chart, Set alert, and Add notes."
+      },
+      {
+        "action": "Analyze the chart for NIFTY 50",
+        "image": "data/train_data/kite_chart/step_4.png",
+        "description": "This screen displays the NIFTY 50 candlestick chart with indicators like RSI and volume."
+      }
+    ]
+  },
+  {
+    "query": "Book a flight from Bengaluru to Pune on 8th April on makemytrip",
+    "keywords": ["flight booking", "Bengaluru to Pune", "flight ticket", "book flight", "makemytrip"],
+    "application": ["MakeMyTrip"],
+    "steps": [
+      {
+        "action": "Tap on 'Flights' and start a one-way search",
+        "image": "data/train_data/mmt_booking/step_1.png",
+        "description": "The home screen shows options like Flights, Hotels, Holiday Packages, Trains/Bus, etc."
+      },
+      {
+        "action": "Review what needs to be changed in default fields based on your query. Click on 'From'",
+        "image": "data/train_data/mmt_booking/step_2.png",
+        "description": "Default values are populated by default. Select 'One Way' for a one-way flight."
+      },
+      {
+        "action": "Change the From field from default to Bengaluru",
+        "image": "data/train_data/mmt_booking/step_3.png",
+        "description": "List of locations is shown. Select Bengaluru from the list of suggested cities."
+      },
+      {
+        "action": "Change the destination from New Delhi to Pune",
+        "image": "data/train_data/mmt_booking/step_4.png",
+        "description": "Update the 'TO' field by selecting Pune from the suggested cities list."
+      },
+      {
+        "action": "Choose the departure date as April 8, 2025",
+        "image": "data/train_data/mmt_booking/step_5.png",
+        "description": "A calendar view opens. Select April 8, 2025, which is priced at ₹3,557."
+      },
+      {
+        "action": "View available flights from Bengaluru to Pune",
+        "image": "data/train_data/mmt_booking/step_6.png",
+        "description": "You see a list of flights. Select filters like Cheapest, Non-stop, and Discounted Price."
+      },
+      {
+        "action": "Select the IndiGo flight departing at 00:50 AM",
+        "image": "data/train_data/mmt_booking/step_7.png",
+        "description": "Choose flight 6E 6563 from IndiGo which reaches Pune at 02:15 AM for ₹3,557."
+      },
+      {
+        "action": "Check baggage details and cancellation policy",
+        "image": "data/train_data/mmt_booking/step_8.png",
+        "description": "Cabin bag: 7 kg, Check-in: 15 kg. Fare is non-refundable. Option to lock price is available."
+      },
+      {
+        "action": "Enter traveller details",
+        "image": "data/train_data/mmt_booking/step_9.png",
+        "description": "Add adult details like name, email, phone number. Optionally add a GST number."
+      },
+      {
+        "action": "Review all details and click on 'Continue'",
+        "image": "data/train_data/mmt_booking/step_10.png",
+        "description": "Special fares for Armed forces, Senior citizens, and Students with discounts are shown."
+      },
+      {
+        "action": "Select a preferred seat",
+        "image": "data/train_data/mmt_booking/step_11.png",
+        "description": "Choose seat 2B from the free seat category. Seat selection adds ₹601 to fare."
+      },
+      {
+        "action": "Choose in-flight meal (optional)",
+        "image": "data/train_data/mmt_booking/step_12.png",
+        "description": "You can add meals like Paneer Tikka Sandwich or Chicken Junglee Sandwich to your booking."
+      },
+      {
+        "action": "Select add-ons like Flight Delay Protection",
+        "image": "data/train_data/mmt_booking/step_13.png",
+        "description": "Add insurance for ₹99 which provides ₹1,000 compensation if flight is delayed by 1+ hour."
+      },
+      {
+        "action": "Review trip and traveller details",
+        "image": "data/train_data/mmt_booking/step_14.png",
+        "description": "Final confirmation of flight, traveller info, selected seat, and meal/add-on options."
+      },
+      {
+        "action": "Proceed to payment page and choose payment method",
+        "image": "data/train_data/mmt_booking/step_15.png",
+        "description": "The total fare is ₹4,508 including seat fee and convenience charge. Multiple payment modes available."
+      },
+      {
+        "action": "Enter card details and complete payment",
+        "image": "data/train_data/mmt_booking/step_16.png",
+        "description": "Enter CVV for your card and tap 'PAY NOW' to complete the booking process."
+      }
+    ]
+  },
+  {
+    "query": "Check and claim daily rewards on CRED",
+    "keywords": ["CRED", "rewards", "claim now", "spin", "earn coins", "jackpot", "CRED"],
+    "application": ["CRED"],
+    "steps": [
+      {
+        "action": "Go to the CRED home screen",
+        "image": "data/train_data/cred_rewards/step_1.png",
+        "description": "You’ll see various sections like pay contacts, rewards, shopping, and your available coins at the top right."
+      },
+      {
+        "action": "Tap on the rewards banner or go to 'Flash Deals → Rewards'",
+        "image": "data/train_data/cred_rewards/step_2.png",
+        "description": "Navigate to the rewards section where you can check today’s rewards and claim offers like jackpot prizes."
+      },
+      {
+        "action": "Tap on 'Claim now' to check today’s sponsored reward",
+        "image": "data/train_data/cred_rewards/step_3.png",
+        "description": "A special prize like a phone or discount voucher will be displayed. You can tap to proceed to the spin screen."
+      },
+      {
+        "action": "Tap 'Spin' to use your coins and try for a reward",
+        "image": "data/train_data/cred_rewards/step_4.png",
+        "description": "Each spin costs a set number of coins (e.g., 1000). You can win jackpots or vouchers depending on your luck."
+      }
+    ]
+  }  
+  
+  ]
+  

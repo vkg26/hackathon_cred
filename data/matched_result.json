@@ -1,0 +1,40 @@
+{
+  "query": "Pay \u00e2\u201a\u00b9500 to Axis Bank credit card in cred",
+  "keywords": [
+    "pay",
+    "credit card",
+    "Axis Bank",
+    "\u00e2\u201a\u00b9500",
+    "CRED"
+  ],
+  "application": [
+    "CRED"
+  ],
+  "steps": [
+    {
+      "action": "Tap on the 'Credit Cards' tab at the bottom to manage cards",
+      "image": "data\\train_data\\cred_pay_bill\\step_1.png",
+      "description": "Launch the CRED app and view the home screen with options like pay contacts, bills, refer, and more."
+    },
+    {
+      "action": "Scroll to the Axis Bank credit card",
+      "image": "data\\train_data\\cred_pay_bill\\step_2.png",
+      "description": "Navigate to the credit card management screen where you can view total due, spends, and offers."
+    },
+    {
+      "action": "Tap on the Axis Bank credit card to expand its details",
+      "image": "data\\train_data\\cred_pay_bill\\step_3.png",
+      "description": "From the list of cards, select the Axis Bank card which is marked as 'Fully Paid' and offers a 'Pay more' option."
+    },
+    {
+      "action": "Enter \u00e2\u201a\u00b9500 in the amount input field",
+      "image": "data\\train_data\\cred_pay_bill\\step_4.png",
+      "description": "Input the desired payment amount using the keypad provided and tap on 'Proceed to pay'."
+    },
+    {
+      "action": "Tap on 'Pay now' to complete the transaction using the selected UPI account",
+      "image": "data\\train_data\\cred_pay_bill\\step_5.png",
+      "description": "The final screen confirms the payment details including amount, discount, and chosen UPI account."
+    }
+  ]
+}
