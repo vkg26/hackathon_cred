@@ -11,7 +11,8 @@ The goal of this MVP is to:
 - Convert it to **text using GPT-4o real-time speech-to-text via `litellm`**.
 - Match the query with **past similar tasks** using **RAG (Retrieval-Augmented Generation)**.
 - Extract **step-by-step instructions** and **corresponding screenshots** from past user actions.
-- Loop through the matched steps and simulate a guided walkthrough using hardcoded images.
+- Make an overall plan for the current query
+- Loop through the current screen and suggest next action. This will go in in loop till the task is complete.
 
 ---
 
@@ -37,7 +38,7 @@ The goal of this MVP is to:
 | Language Model | OpenAI GPT-4o for response formatting |
 | Voice File Format | `.wav` (mono, 16kHz recommended) |
 | Visualization | CLI or basic web UI (optional for demo) |
-| Images | Hardcoded screenshots stored per task |
+| Images | UI Automator android connected to web service |
 
 ---
 
